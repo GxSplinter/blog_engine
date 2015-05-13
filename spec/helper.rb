@@ -1,4 +1,5 @@
 require 'minitest/autorun'
+require 'minitest/pride'
 require 'active_record'
 require 'database_cleaner'
 require 'pry'
@@ -7,6 +8,7 @@ require_relative '../models/blog'
 require_relative '../models/author'
 require_relative '../models/category'
 require_relative '../models/post'
+require_relative '../models/comment'
 
 class MiniTest::Test
   def setup
