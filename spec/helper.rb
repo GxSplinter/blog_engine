@@ -9,7 +9,7 @@ require_relative '../models/author'
 require_relative '../models/category'
 require_relative '../models/post'
 require_relative '../models/comment'
-require_relative '../models/post_tags'
+require_relative '../models/post_tag'
 require_relative '../models/tag'
 
 class MiniTest::Test
